@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the numbers from 1 to 100, followed by
- * but for multiples of three prints Fizz instead of the
+ * main - prints the numbers from 1 to 100, followed by a new line
+ * but for multiples of three prints Fizz instead of the number
  * and for the multiplesof five prints Buzz
  * Return: Always 0 (success)
  */
@@ -26,7 +26,7 @@ int main(void)
 			printf("%d", i);
 		} else
 		{
-			printf(" %d", i);
+			printf("%d", i);
 		}
 	}
 	printf("\n");
